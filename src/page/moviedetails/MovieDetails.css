@@ -1,0 +1,61 @@
+.backimage img {
+  width: 100%;
+}
+.poster1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  position: relative;
+  top: -15rem;
+  z-index: 20;
+}
+
+.p-card img {
+  width: 22rem;
+  height: 29rem;
+  border-radius: 15px;
+  box-shadow: 3px 8px 12px white;
+  transition: 1.5s;
+}
+.p-card img:hover {
+  cursor: pointer;
+  box-shadow: inset -10px 13px 45px white;
+}
+.content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.content span {
+  color: magenta;
+  text-shadow: 10px 16px 50px white;
+  font-weight: bolder;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+.movie_heading {
+  font-size: 1.6rem;
+  margin: 12px;
+}
+.linktag {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 10px;
+  background: rgba(223, 19, 53, 0.533);
+  margin: 4px;
+  transition: 0.3s;
+}
+.linktag:hover {
+  background: rgba(8, 223, 177, 0.733);
+}
+.productionImage {
+  width: 10rem;
+  height: 10rem;
+}
+.movie_production {
+  background: red;
+  width: 30vh;
+  position: relative;
+  top: 20rem;
+}

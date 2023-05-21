@@ -1,0 +1,160 @@
+.banner {
+  align-items: center;
+  height: 70vh;
+}
+.carousel {
+  height: 90vh;
+}
+.poster-overlay {
+  width: 50vw;
+  position: relative;
+  top: -30rem;
+  left: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+.poster-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem;
+  margin: 2px;
+  border-bottom: 2px solid cyan;
+}
+.poster {
+  font-weight: bolder;
+  text-shadow: 4px 5px 19px black;
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+}
+.poster-rating {
+  font-size: 1.2rem;
+}
+.poster-description {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .banner {
+    align-items: center;
+    height: 70vh;
+  }
+  .carousel {
+    height: 90vh;
+    overflow: auto;
+  }
+  .poster-overlay {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    margin-top: 1rem;
+    position: absolute;
+    top: 7rem;
+  }
+  .poster-title {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 2rem;
+    margin: 2px;
+    border-bottom: 2px solid cyan;
+  }
+  .poster {
+    font-weight: bolder;
+    text-shadow: 4px 5px 19px black;
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1rem;
+  }
+  .poster-rating {
+    font-size: 1rem;
+  }
+  .poster-description {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner {
+    align-items: center;
+    height: 110vh;
+  }
+  .carousel {
+    height: 110vh;
+    overflow: auto;
+  }
+  .poster-overlay {
+    width: 70vw;
+    padding: 3rem;
+    text-align: left;
+    color: white;
+    margin-top: 1rem;
+    position: relative;
+    top: 0.6rem;
+    left: 3rem;
+  }
+  .poster-title {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 2.5rem;
+    margin: 2px;
+    border-bottom: 2px solid cyan;
+  }
+  .poster {
+    font-weight: bolder;
+    text-shadow: 4px 5px 19px black;
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+  }
+  .poster-rating {
+    font-size: 1.2rem;
+  }
+  .poster-description {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner {
+    align-items: center;
+    height: 130vh;
+  }
+  .carousel {
+    height: 130vh;
+    overflow: auto;
+  }
+  .poster-overlay {
+    width: 70vw;
+    padding: 1rem;
+    text-align: left;
+    color: white;
+    margin-top: 1rem;
+    position: relative;
+    top: 0.6rem;
+    left: 1.7rem;
+  }
+  .poster-title {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 1.8rem;
+    margin: 2px;
+    border-bottom: 2px solid cyan;
+  }
+  .poster {
+    font-weight: bolder;
+    text-shadow: 4px 5px 19px black;
+    display: flex;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+  }
+  .poster-rating {
+    font-size: 1rem;
+  }
+  .poster-description {
+    font-family: "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin: 5px;
+  }
+}
