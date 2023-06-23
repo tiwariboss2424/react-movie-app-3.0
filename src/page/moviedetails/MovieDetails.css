@@ -11,8 +11,9 @@
 }
 
 .p-card img {
-  width: 22rem;
-  height: 29rem;
+  width: 39vw;
+  height: 60vh;
+  margin-left: 10px;
   border-radius: 15px;
   box-shadow: 3px 8px 12px white;
   transition: 1.5s;

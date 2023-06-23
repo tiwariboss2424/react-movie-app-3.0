@@ -25,7 +25,7 @@ const Popular = () => {
   return (
     <div className="movie-list ">
       <div clasName="list-title">
-        {(type ? type : "POPULAR ").toUpperCase()}
+        {"    "}{(type ? type : "POPULAR ").toUpperCase()}
       </div>
       <div className="list-cards">
         {popular.map((user) => {
