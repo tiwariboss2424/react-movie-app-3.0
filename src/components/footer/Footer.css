@@ -1,12 +1,15 @@
 .wrap-footer {
   margin: 1px;
   background: linear-gradient(to right, blue, black, black);
-  box-shadow: 2px 3px 3px white;
+  /* box-shadow: 2px 8px 7px white; */
   height: 60vh;
   padding: 40px;
   margin-top: 10rem;
+  transition: 0.6s;
 }
+
 .wrap-footer:hover {
+  background: linear-gradient(to right, black, black, blue);
   box-shadow: none;
   cursor: pointer;
 }

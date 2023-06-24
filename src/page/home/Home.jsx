@@ -69,22 +69,6 @@ const Home = () => {
 
         <br />
         <MovieList />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
-        <br />
-        <br />
-        <Footer />
       </div>
     </>
   );

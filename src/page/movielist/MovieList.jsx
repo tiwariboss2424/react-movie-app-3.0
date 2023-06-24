@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Cards from "../cards/Cards";
 import "./MovieList.css";
 import { useParams } from "react-router-dom";
+import Footer from "../../components/footer/Footer";
 const Popular = () => {
   const [popular, setPopular] = useState([]);
   const { type } = useParams();
@@ -25,13 +26,25 @@ const Popular = () => {
   return (
     <div className="movie-list ">
       <div clasName="list-title">
-        {"    "}{(type ? type : "POPULAR ").toUpperCase()}
+        {"    "}
+        {(type ? type : "POPULAR ").toUpperCase()}
       </div>
       <div className="list-cards">
         {popular.map((user) => {
           return <Cards user={user} />;
         })}
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <br />
+      <Footer />
+      {/* {type === "POPULAR" ? <Footer /> : ""} */}
     </div>
   );
 };

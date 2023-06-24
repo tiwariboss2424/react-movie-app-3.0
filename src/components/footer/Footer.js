@@ -47,7 +47,10 @@ const FooterComponent = () => {
                 margin: "2rem 0 0 2rem",
               }}
             >
-              <a href="">
+              <a
+                href="https://www.facebook.com/niranjan.tiwari.77964"
+                target="_blank"
+              >
                 <FaFacebook
                   style={{
                     color: "cyan",
@@ -56,7 +59,10 @@ const FooterComponent = () => {
                   }}
                 />
               </a>
-              <a href="">
+              <a
+                href="https://github.com/tiwariboss2424?tab=repositories"
+                target="_blank"
+              >
                 <FaGithub
                   style={{
                     color: "gold",
@@ -65,7 +71,10 @@ const FooterComponent = () => {
                   }}
                 />
               </a>
-              <a href="">
+              <a
+                href="https://www.instagram.com/tiwari_niranjan24/"
+                target="_blank"
+              >
                 <FaInstagramSquare
                   style={{
                     color: "orange",
@@ -74,7 +83,10 @@ const FooterComponent = () => {
                   }}
                 />
               </a>
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/niranjan-tiwari-28689719b/"
+                target="_blank"
+              >
                 <FaLinkedin
                   style={{
                     color: "cyan",
