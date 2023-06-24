@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import MovieList from "../movielist/MovieList";
+import Footer from "../../components/footer/Footer";
 import "./MovieDetails.css";
 const MovieDetails = () => {
   const [poster, setPoster] = useState([]);
@@ -94,6 +95,21 @@ const MovieDetails = () => {
         </div>
       </div>
       <MovieList />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <br />
+
+      <Footer />
     </>
   );
 };

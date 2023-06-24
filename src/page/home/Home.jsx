@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
-import MovieList from '../movielist/MovieList';
+import MovieList from "../movielist/MovieList";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { FaStar } from "react-icons/fa";
 import { FaGripHorizontal } from "react-icons/fa";
+import Footer from "../../components/footer/Footer";
 import "./Home.css";
 import { Link } from "react-router-dom";
 
@@ -32,7 +33,7 @@ const Home = () => {
           {popularMovie.map((user) => (
             <Link
               style={{ textDecoration: "none", color: "white" }}
-              to={`/movie/${user.id}`}
+              to={`/movie/${user.id}/`}
             >
               <div className="poster">
                 <img
@@ -61,7 +62,29 @@ const Home = () => {
             </Link>
           ))}
         </Carousel>
-        <MovieList/>
+        <br />
+        <br />
+        <hr />
+        <hr />
+
+        <br />
+        <MovieList />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <br />
+        <br />
+        <Footer />
       </div>
     </>
   );

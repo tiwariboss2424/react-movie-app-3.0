@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./page/home/Home";
 import MovieDetails from "./page/moviedetails/MovieDetails";
 import MovieList from "./page/movielist/MovieList";
+import Footer from "./components/footer/Footer";
 export default function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ export default function App() {
             <Route path="/*" element={<h1>Error Page</h1>}></Route>
           </Route>
         </Routes>
+        {/* <Footer /> */}
       </Router>
     </div>
   );

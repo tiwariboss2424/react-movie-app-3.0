@@ -39,10 +39,10 @@ const Navbar = () => {
               </div>
             </div>
             <div className="media-nav" id={show ? "show-nav" : "hide-nav"}>
-              <Link to="/movies/popular" style={{ textDecoration: "none" }}>
+              <Link to="/movies/popular/" style={{ textDecoration: "none" }}>
                 <span>Popular</span>
               </Link>
-              <Link to="/movies/top_rated" style={{ textDecoration: "none" }}>
+              <Link to="/movies/top_rated/" style={{ textDecoration: "none" }}>
                 <span>Top Rated</span>
               </Link>
               <Link to="/movies/upcoming" style={{ textDecoration: "none" }}>
@@ -60,7 +60,7 @@ const Navbar = () => {
               padding: "5px",
               marginRight: "1rem",
               fontSize: "1rem",
-              outline: "none"
+              outline: "none",
             }}
             type="search"
             name="search"

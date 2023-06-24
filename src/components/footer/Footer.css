@@ -1,0 +1,15 @@
+.wrap-footer {
+  margin: 1px;
+  background: linear-gradient(to right, blue, black, black);
+  box-shadow: 2px 3px 3px white;
+  height: 60vh;
+  padding: 40px;
+  margin-top: 10rem;
+}
+.wrap-footer:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+.f-copyright {
+  margin-bottom: 15px;
+}
