@@ -95,21 +95,6 @@ const MovieDetails = () => {
         </div>
       </div>
       <MovieList />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <br />
-
-      <Footer />
     </>
   );
 };
