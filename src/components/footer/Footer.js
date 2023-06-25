@@ -30,13 +30,14 @@ const FooterComponent = () => {
               </span>
             </h3>
             <br />
-            <p>
-              I have ceated this site using React.js for Practice purpose in my
-              2nd year of Btech. <br /> For any{" "}
+            <p style={{ flex: "wrap" }}>
+              I have ceated this site using React.js for Practice
+              <br /> purpose in my 2nd year of Btech. <br /> For any{" "}
               <span style={{ color: "magenta", fontSize: "1.5rem" }}>
                 Query
               </span>{" "}
-              Connect with me on my social media handles ...{" "}
+              Connect with me on my social <br />
+              media handles ...{" "}
             </p>
             <div
               className="f-icons"
