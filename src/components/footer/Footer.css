@@ -6,6 +6,7 @@
   padding: 40px;
   margin-top: 10rem;
   transition: 0.6s;
+  width: 100vw;
 }
 
 .wrap-footer:hover {
