@@ -1,9 +1,9 @@
 .banner {
   align-items: center;
-  height: 70vh;
 }
 .carousel {
   height: 90vh;
+  width: 100vw;
 }
 .poster-overlay {
   width: 50vw;
@@ -40,10 +40,9 @@
 @media screen and (max-width: 800px) {
   .banner {
     align-items: center;
-    height: 70vh;
   }
   .carousel {
-    height: 90vh;
+    height: 75vh;
     overflow: auto;
   }
   .poster-overlay {
@@ -79,21 +78,24 @@
 @media screen and (max-width: 600px) {
   .banner {
     align-items: center;
-    height: 110vh;
   }
   .carousel {
-    height: 110vh;
+    height: 50rem;
     overflow: auto;
   }
   .poster-overlay {
-    width: 70vw;
+    width: 80vw;
     padding: 3rem;
+    height: 27rem;
     text-align: left;
     color: white;
     margin-top: 1rem;
     position: relative;
-    top: 0.6rem;
+    top: 0.4rem;
     left: 3rem;
+    z-index: 20;
+    overflow-y: auto;
+    background: rgba(0, 0, 255, 0.486);
   }
   .poster-title {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -120,20 +122,21 @@
 @media screen and (max-width: 400px) {
   .banner {
     align-items: center;
-    height: 130vh;
   }
   .carousel {
-    height: 130vh;
+    height: 52rem;
     overflow: auto;
   }
   .poster-overlay {
-    width: 70vw;
+    width: 85vw;
     padding: 1rem;
+    height: 30rem;
     text-align: left;
     color: white;
     margin-top: 1rem;
     position: relative;
     top: 0.6rem;
+    overflow-y: auto;
     left: 1.7rem;
   }
   .poster-title {
@@ -153,8 +156,7 @@
     font-size: 1rem;
   }
   .poster-description {
-    font-family: "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+    font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     margin: 5px;
   }
 }

@@ -43,7 +43,6 @@ const Home = () => {
                   alt="loading "
                 />
               </div>
-
               <div className="poster-overlay">
                 <div className="poster-title">
                   {user ? user.original_title : ""}

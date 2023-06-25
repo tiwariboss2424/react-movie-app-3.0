@@ -1,16 +1,18 @@
-* {
+.App {
   font-family: sans-serif;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
+  width: 100vw;
 }
+
 body {
   background: #080830;
   color: white;
   z-index: -10;
-  width: 100vw;
-
   overflow-x: hidden;
 }
+
 @media screen and (max-width: 800px) {
   body {
     background: black;

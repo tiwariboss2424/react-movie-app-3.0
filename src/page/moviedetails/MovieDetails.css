@@ -104,13 +104,14 @@
     display: block;
     justify-content: space-around;
     gap: 1rem;
+    /* transform: scale(0.8); */
     position: relative;
-    top: -6rem;
+    top: -9rem;
     z-index: 20;
   }
   .backimage img {
-    width: 100%;
     overflow-x: hidden;
+    /* transform: scale(1.2); */
   }
   .content {
     position: relative;
@@ -118,16 +119,11 @@
     padding: 10px;
   }
   .p-card img {
-    width: 75vw;
-    height: 22rem;
+    width: 80vw;
+    height: 29rem;
     margin-left: 10px;
     border-radius: 15px;
     box-shadow: 3px 8px 12px white;
     transition: 1.5s;
-  }
-}
-@media screen and (max-width: 300px) {
-  body {
-    overflow-x: hidden;
   }
 }
